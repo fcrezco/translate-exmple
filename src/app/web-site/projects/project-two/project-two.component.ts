@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-projects',
+  selector: 'app-project-two',
   standalone: true,
   imports: [CommonModule, TranslateModule],
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  templateUrl: './project-two.component.html',
+  styleUrls: ['./project-two.component.scss']
 })
-export class ProjectsComponent {
+export class ProjectTwoComponent {
 
 }
